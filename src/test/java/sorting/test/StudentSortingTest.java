@@ -8,6 +8,7 @@ import org.junit.Test;
 
 import sorting.AbstractSorting;
 import sorting.simpleSorting.BubbleSort;
+import sorting.simpleSorting.InsertionSort;
 import sorting.simpleSorting.SelectionSort;
 
 public class StudentSortingTest {
@@ -38,7 +39,7 @@ public class StudentSortingTest {
 	 * do aluno
 	 */
 	private void getImplementation() {
-		this.implementation = new SelectionSort<>();
+		this.implementation = new InsertionSort<>();
 	}
 
 	public void populaVetorTamanhoPar(Integer[] arrayPadrao) {
